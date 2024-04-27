@@ -1,0 +1,10 @@
+
+kkpmerge: Combine exe contents and compression statistics with per-byte symbol
+and source information in the rekkrunchy KKP format.
+
+All input files and the output file are in the KKP file format as described in
+https://github.com/ConspiracyHu/kkpView-public/blob/main/README.md
+
+The first input file provides the executable contents and compression ratios.
+All input files may contribute per-symbol source information.
+
